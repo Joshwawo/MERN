@@ -16,7 +16,7 @@ try {
 }
 
 app.get("/", (req, res) => {
-  res.send("hola mundo");
+  res.send("Holas desde la API");
 });
 
 app.listen(8000, () => {
