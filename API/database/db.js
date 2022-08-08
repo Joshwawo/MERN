@@ -3,7 +3,8 @@ import {Sequelize} from "sequelize";
 
 const db = new Sequelize('blog','root', 'root',{
     host: 'localhost',
-    dialect: 'mysql'
+    dialect: 'mysql',
+    logging: false,
 });
 
 export default db;
